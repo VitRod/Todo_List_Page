@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    background-color: aliceblue;
+    font-family: "New Tegomin", serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-rendering: optimizeLegibility;
+  }
