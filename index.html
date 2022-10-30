@@ -1,12 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <!-- HEAD -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="To do list creator" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" name="text/css" href="Resources/CSS/styles.css" />
+    <link rel="stylesheet" name="text/css" href="Resources/CSS/queries.css" />
+
+    <title>To Do List</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon.png"
+    />
+
+  </head>
+<<body>
+    <main>
+      <!-- TITLE -->
+      <div><h1>To Do List.</h1></div>
+      <!-- TASK INPUT -->
+      <div class="task-input">
+        <label for="task"></label>
+        <input
+          name="task"
+          type="text"
+          id="task"
+          placeholder="Enter your task here"
+        />
+        <!-- ADD TASK BUTTON -->
+        <button class="add-me animate__animated" title="Add task">
+          Add me
+        </button>
+      </div>
+      <!-- TASK DISPLAY CONTAINER -->
+      <div class="task-display"></div>
+      <!-- CLEAR TASKS BUTTON -->
+      <button class="clear" title="Clear tasks">Clear tasks</button>
+      <!-- PROFILE -->
+      <div class="profile">
+        <div class="details">
+          <img
+            src="Resources/Images/habitica.png"
+            alt="Photo"
+            class="photo"
+          />
+          <h2>Vit Rod</h2>
+        </div>
+        <!-- SOCIAL HANDLES -->
+        <div class="social-handles">
+          <ul>
+            <!-- GITHUB -->
+            <li>
+              <a href="https://github.com/VitRod" target="_blank"
+                ><ion-icon name="logo-github" class="github"></ion-icon
+              ></a>
+            </li>
+            <!-- LINKDIN -->
+            <li>
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                ><ion-icon name="logo-linkedin" class="linkedin"></ion-icon
+              ></a>
+            </li>
+            <!-- INSTAGRAM -->
+            <li>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><ion-icon name="logo-instagram" class="instagram"></ion-icon
+              ></a>
+            </li>
+            <!-- TWITTER -->
+            <li>
+              <a href="https://twitter.com/" target="_blank"
+                ><ion-icon name="logo-twitter" class="twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <!-- JAVASCRIPT LINKING -->
+    <script src="Resources/JS/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
