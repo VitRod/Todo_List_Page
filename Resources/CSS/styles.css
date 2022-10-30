@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -6,10 +7,22 @@
   }
   html,
   body {
-    background-color: aliceblue;
+    /*background-color: aliceblue; */
     font-family: "New Tegomin", serif;
     font-size: 25px;
     font-weight: bold;
     color: black;
     text-rendering: optimizeLegibility;
   }
+  
+  #myVideo {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      width: 100vw;
+      height: auto;
+      object-fit: cover;
+      z-index: -1;
+  
+    }
+  
