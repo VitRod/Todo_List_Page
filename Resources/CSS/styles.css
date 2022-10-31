@@ -54,7 +54,14 @@ main {
   margin: 15px 15px 30px 15px;
 }
 
-
+#task[type="text"],
+.add-me {
+  width: 85%;
+  height: 50px;
+  border: none;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
 
 
 
