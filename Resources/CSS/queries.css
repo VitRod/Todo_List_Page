@@ -1,0 +1,31 @@
+@media only screen and (max-width: 1270px) {
+    main {
+      width: 1000px;
+    }
+    .profile {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-top: 25px;
+    }
+    .details {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+    h2 {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+    .social-handles ul {
+      margin-left: 0;
+    }
+  }
