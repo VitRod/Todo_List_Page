@@ -44,7 +44,15 @@ main {
   margin: 0 auto;
 }
 
-
+/* Task Input */
+.task-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin: 15px 15px 30px 15px;
+}
 
 
 
