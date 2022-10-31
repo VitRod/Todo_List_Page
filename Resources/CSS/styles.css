@@ -194,7 +194,20 @@ button {
   align-items: center;
 }
 
-
+.photo {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 3px solid #000;
+  -webkit-transition: width 0.2s, height 0.2s;
+  transition: width 0.2s, height 0.2s;
+}
+h2 {
+  font-size: 100%;
+  color: black;
+  font-family: cursive;
+  margin-left: 15px;
+}
 
 
 
