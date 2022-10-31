@@ -63,7 +63,15 @@ main {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-
+*:focus {
+  outline: none;
+}
+/* Button */
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
 
 
 
