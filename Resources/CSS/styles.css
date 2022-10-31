@@ -238,6 +238,25 @@ h2 {
   font-size: 120%;
 }
 
+.github:hover,
+.github:active {
+  color: #000;
+}
+
+.linkedin:hover,
+.linkedin:active {
+  color: #007bb6;
+}
+
+.twitter:hover,
+.twitter:active {
+  color: #00aced;
+}
+
+.instagram:hover,
+.instagram:active {
+  color: #bc2a8d;
+}
 
 
 
