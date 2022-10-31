@@ -227,7 +227,7 @@ h2 {
 
 .social-handles li a:link,
 .social-handles li a:visited {
-  color: rgba(21, 21, 21, 0.6);
+  color: rgba(232, 240, 126, 0.6);
   text-decoration: none;
   -webkit-transition: font-size 0.2s, color 0.2s;
   transition: font-size 0.2s, color 0.2s;
@@ -240,7 +240,7 @@ h2 {
 
 .github:hover,
 .github:active {
-  color: #000;
+  color: rgb(231, 29, 29);
 }
 
 .linkedin:hover,
