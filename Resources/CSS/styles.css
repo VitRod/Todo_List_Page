@@ -202,6 +202,7 @@ button {
   -webkit-transition: width 0.2s, height 0.2s;
   transition: width 0.2s, height 0.2s;
 }
+
 h2 {
   font-size: 100%;
   color: black;
@@ -209,7 +210,33 @@ h2 {
   margin-left: 15px;
 }
 
+.social-handles ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 8px 0 0 250px;
+}
 
+.social-handles ul li {
+  display: inline-block;
+}
+
+.social-handles li a:link,
+.social-handles li a:visited {
+  color: rgba(21, 21, 21, 0.6);
+  text-decoration: none;
+  -webkit-transition: font-size 0.2s, color 0.2s;
+  transition: font-size 0.2s, color 0.2s;
+}
+
+.social-handles li a:hover,
+.social-handles li a:active {
+  font-size: 120%;
+}
 
 
 
