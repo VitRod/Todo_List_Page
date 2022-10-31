@@ -58,7 +58,37 @@
     }
   }
 
-
+  @media only screen and (max-width: 650px) {
+    html,
+    body {
+      font-size: 16px;
+    }
+    main {
+      width: 500px;
+    }
+    .add-me {
+      height: 40px;
+    }
+    #task[type="text"] {
+      height: 40px;
+    }
+    .check,
+    .delete {
+      font-size: 20px;
+    }
+    .options {
+      width: 15%;
+    }
+    .social-handles ul {
+      width: 100px;
+    }
+  }
+  @media only screen and (max-width: 530px) {
+    main {
+      width: 450px;
+    }
+  }
+  
 
 
 
