@@ -131,7 +131,44 @@ button {
   transform: scale(1.1);
 }
 
-
+/* Task Display */
+.task-display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.task-block {
+  width: 90%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 5px solid grey;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.task-block p {
+  display: block;
+  width: 90%;
+}
+.options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10%;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
 
 
 
