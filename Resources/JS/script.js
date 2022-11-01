@@ -21,7 +21,11 @@ addme.addEventListener("click", function () {
     }
   });
 
-
+document.addEventListener("keydown", function (e) {
+    if (e.key === "Enter") {
+      addme.click();
+    }
+  });
 
 
 
