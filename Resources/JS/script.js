@@ -50,7 +50,24 @@ function addtask(i) {
     );
   }
 
-
+// Mark task done function:
+function checktask(key) {
+    const t = document.getElementById(`block-${key}`);
+    const check = document.querySelector(`.check-${key}`);
+    if (t.classList.contains("incomplete")) {
+      t.style.textDecoration = "line-through";
+      t.style.color = "grey";
+      t.style.backgroundColor = "#8FFF8D ";
+      check.style.color = "rgb(19, 94, 19)";
+      t.classList.remove("incomplete");
+    } else {
+      t.style.textDecoration = "none";
+      t.style.color = "black";
+      t.style.backgroundColor = "aliceblue ";
+      check.style.color = "green";
+      t.classList.add("incomplete");
+    }
+  }
 
 
 
