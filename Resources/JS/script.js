@@ -27,7 +27,10 @@ document.addEventListener("keydown", function (e) {
     }
   });
 
-
+// Clear tasks event listener:
+clear.addEventListener("click", function () {
+    display.innerHTML = "";
+  });
 
 
 
