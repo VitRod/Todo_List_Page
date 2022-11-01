@@ -32,7 +32,23 @@ clear.addEventListener("click", function () {
     display.innerHTML = "";
   });
 
-
+// Add task function:
+function addtask(i) {
+    display.insertAdjacentHTML(
+      "beforeend",
+      `<div class="task-block incomplete" id="block-${i}">
+    <p>${tasks[i]}</p>
+    <div class="options">
+      <button class="check"  onClick="checktask(${i})" >
+        <ion-icon name="checkmark-circle" class="check check-${i}"></ion-icon>
+      </button>
+      <button class="delete" onClick="removetask(${i})">
+        <ion-icon name="trash" class="delete"></ion-icon>
+      </button>
+    </div>
+  </div>`
+    );
+  }
 
 
 
