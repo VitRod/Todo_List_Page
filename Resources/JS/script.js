@@ -69,7 +69,12 @@ function checktask(key) {
     }
   }
 
-
+// Remove task function:
+function removetask(key) {
+    let id = document.getElementById(`block-${key}`);
+    display.removeChild(id);
+  }
+  
 
 
 
