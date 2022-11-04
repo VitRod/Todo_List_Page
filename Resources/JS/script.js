@@ -75,5 +75,3 @@ function removetask(key) {
     display.removeChild(id);
   }
   
-
-
